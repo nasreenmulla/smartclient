@@ -1,0 +1,17 @@
+
+    
+  .ona{
+    display: grid;
+   grid-template-columns: repeat(2, 1fr);
+   grid-gap: 20px;
+ }
+.onw{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-gap: 20px;
+}
+.onthird{
+    display: grid;
+   grid-template-columns: repeat(4, 1fr);
+   grid-gap: 20px;
+ }

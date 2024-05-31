@@ -1,0 +1,211 @@
+/* Employer.css */
+
+.EmployerContainer {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    /* width: 100vh; */
+    margin-left: 1050; /* Default margin-left value */
+    transition: margin-left 0.3s ease; /* Add transition for smooth animation */
+  }
+  .hea{
+    display: flex;
+   
+    /* background-color: aliceblue; */
+    border-radius: 2% black;
+  }
+  .O{
+    width: 900px;
+  }
+  .head{
+    /* display: inline; */
+    display: flex;
+    width: 90px;
+    height: 60px;
+    margin-left: 900px;
+
+   
+  
+  }
+  .EmployerBox {
+    background-color: #f0f0f0;
+    border: 2px solid #ccc;
+    border-radius: 8px;
+    padding: 20px;
+    margin-left: 250px;
+    height: 730px;
+    width: 1200px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  h1 {
+    text-align: center;
+    margin: 0;
+  }
+  
+  .menu-push-expanded .EmployerContainer {
+    margin-right: 350px; /* Adjust the margin-left based on your menu width */
+  }
+  /* Employer.css */
+
+
+
+/* Employer.css */
+
+.EmployerContainer {
+  width: 100%;
+  padding: 20px;
+}
+
+.EmployerBox {
+
+  background-color: #f9f9f9;
+  border-radius: 8px;
+  padding: 20px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+button {
+  background-color: #007bff;
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: all 0.3s ease;
+}
+
+button:hover {
+  background-color: #0056b3;
+}
+
+.form-container {
+  max-width: 400px;
+  margin: 20px auto;
+  padding: 20px;
+  background-color: #ffffff;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  transition: all 0.3s ease;
+  transform: translateY(-100%);
+  opacity: 0;
+  visibility: hidden;
+}
+
+.form-container.active {
+  transform: translateY(0);
+  opacity: 1;
+  visibility: visible;
+}
+
+.form-group {
+
+ 
+}
+.fo{
+  background-color: antiquewhite;
+  /* display:flex; */
+  /* display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-gap: 20px; */
+  height: 100px;
+  width: 1200px;
+  z-index: 999;
+}
+/* Style for the form */
+.fo {
+  position: fixed;
+  top: 50%;
+  left: 55%;
+  transform: translate(-50%, -50%);
+ height: 400px;
+ width: 1000px;
+  background-color: white;
+  color: #0056b3;
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+  z-index: 9999; /* Ensure the form appears above other content */
+}
+
+/* Style for the form fields */
+.fo .form-group {
+  margin-bottom: 15px;
+}
+
+/* Style for the submit button */
+.fo button[type="submit"] {
+  background-color: #007bff; /* Blue color, adjust as needed */
+  color: white;
+  border: none;
+  width: 80px;
+  height: 40px;
+  margin-top: 110px;
+  cursor: pointer;
+}
+
+.fo button[type="submit"]:hover {
+  background-color: #0056b3; /* Darker shade of blue on hover */
+}
+
+.tt{
+  color: #0056b3;
+}
+.one{
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-gap: 20px;
+}
+
+.Se{
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-gap: 20px;
+}
+.bthird{
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-gap: 20px;
+}
+.DD{
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-gap: 20px;
+}
+.Imag{
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-gap: 20px;
+}
+.table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+.table th, .table td {
+  padding: 8px;
+  text-align: left;
+  border-bottom: 1px solid #ddd;
+  border-right: 1px solid #ddd; /* Add column lines */
+}
+
+.table th {
+  background-color: #f2f2f2;
+  border-right: 1px solid #ddd; /* Add column lines */
+}
+
+.table tbody tr:nth-child(even) {
+  background-color: #f2f2f2;
+}
+
+.table tbody tr:hover {
+  background-color: #ddd;
+}
+
+.table img {
+  display: block;
+  max-width: 100px;
+  margin: 0 auto;
+}

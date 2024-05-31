@@ -1,0 +1,39 @@
+.container {
+    display: grid;
+    grid-template-columns: auto 1fr;
+    width: 100%;
+    height: 100vh; /* Full height of the viewport */
+  }
+  
+  .menu {
+    background-color: #f4f4f4; /* Example background color for the menu */
+    transition: width 0.3s ease;
+  }
+  
+  .menu-collapsed .menu {
+    width: 60px; /* Width when the menu is collapsed */
+  }
+  
+  .menu-expanded .menu {
+    width: 250px; /* Width when the menu is expanded */
+  }
+  
+  .dashboard {
+    display: flex;
+    justify-content: center; /* Center horizontally */
+    align-items: center; /* Center vertically */
+    transition: margin-left 0.3s ease;
+  }
+  
+  .menu-expanded .dashboard {
+    margin-left: 0; /* No margin when menu is expanded */
+  }
+  
+  .menu-collapsed .dashboard {
+    margin-left: -190px; /* Adjust margin based on the menu width difference */
+  }
+  
+  .EmployerBox {
+    /* Add any styles needed for the EmployerBox */
+  }
+  

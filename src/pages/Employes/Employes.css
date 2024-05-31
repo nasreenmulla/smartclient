@@ -1,0 +1,103 @@
+.foEmp {
+    position: fixed;
+    top: 50%;
+    left: 55%;
+    transform: translate(-50%, -50%);
+   /* height: 500px;
+   width: 750px; */
+   height: 700px;
+   width: 1100px;
+   margin-left: 15px;
+    background-color: white;
+    color: #0056b3;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+    z-index: 9999; /* Ensure the form appears above other content */
+    /* background-color: antiquewhite; */
+    /* display:flex; */
+    /* display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 20px; */
+    /* height: 100px; */
+    /* width: 1200px; */
+    z-index: 999;
+  }
+  .form-groupN{
+    display: block;
+  }
+
+  .t{
+     display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-gap: 20px;
+  }
+  .three{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 20px;
+  }
+  .four{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 20px;
+
+  }
+
+  .five{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 20px;
+  }
+
+  .form-groupH{
+    display: block;
+  }
+
+  .ht{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-gap: 20px;
+  }
+  .hthree{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-gap: 20px;
+  }
+
+  .hfour{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-gap: 20px;
+
+  }
+  .B{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-gap: 20px;
+  }
+
+  .BB{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-gap: 20px;
+  }
+  .C{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-gap: 20px;
+  }
+
+  .Ct{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-gap: 20px;
+  }
+  /* Add this to your CSS file */
+.dropdown-menu {
+  display: none;
+}
+
+.dropdown-menu.show {
+  display: block;
+}
